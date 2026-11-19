@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pl"><head><meta charset="utf-8">
+<style>
+:root{
+  /* PODMIANA NA ZDJĘCIE: ustaw --foto: url('zdjecie.jpg'); i usuń napis w .ini */
+  --foto: none;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1200px;height:400px;background:#fff;overflow:hidden}
+body{position:relative;font-family:"Segoe UI","Helvetica Neue",Arial,sans-serif;color:#000}
+.abs{position:absolute;white-space:nowrap}
+.photo{position:absolute;left:60px;top:45px;width:310px;height:310px;border-radius:50%;
+  border:2px solid #e4e4e8;background:linear-gradient(135deg,#2b53f5,#49b7f0);
+  background-image:var(--foto),linear-gradient(135deg,#2b53f5,#49b7f0);background-size:cover;background-position:center;
+  display:flex;align-items:center;justify-content:center;color:#fff;font-weight:600;font-size:100px;letter-spacing:3px}
+.logo{left:442px;top:22px}
+.name{left:440px;top:113px;font-size:47px;font-weight:700;line-height:60px}
+.role{left:442px;top:172px;font-size:25px;line-height:32px}
+.phone{left:442px;top:224px;font-size:26px;line-height:34px}
+.mail{left:442px;top:264px;font-size:26px;line-height:34px}
+.tag{left:442px;top:324px;font-size:26px;line-height:34px}
+.div{left:853px;top:225px;width:1px;height:131px;background:#e2e2e6}
+.c1{left:884px;top:226px;font-size:20px;font-weight:700;line-height:26px}
+.c2{left:884px;top:261px;font-size:20px;line-height:26px}
+.c3{left:884px;top:298px;font-size:20px;line-height:26px}
+.c4{left:884px;top:335px;font-size:20px;line-height:26px}
+</style></head><body>
+<div class="photo"><span class="ini">KB</span></div>
+<svg class="abs logo" width="106" height="82" viewBox="0 0 64 49"><defs><linearGradient id="mg" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#2b53f5"/><stop offset="1" stop-color="#49b7f0"/></linearGradient></defs>
+<g transform="translate(0,-9)"><path d="M4 36 H18 L26 14 L37 54 L45 36 H60" fill="none" stroke="url(#mg)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></g></svg>
+<div class="abs name">Krzysztof Brzeziński</div>
+<div class="abs role">Prezes Zarządu</div>
+<div class="abs phone">+48 604 850 488</div>
+<div class="abs mail">e-mail : krzysztof@impulseo.pl</div>
+<div class="abs tag">Impuls dla Twojego biznesu</div>
+<div class="abs div"></div>
+<div class="abs c1">Impulseo sp. z o.o.</div>
+<div class="abs c2">NIP: 5833574549</div>
+<div class="abs c3">biuro@impulseo.pl</div>
+<div class="abs c4">impulseo.pl</div>
+</body></html>
